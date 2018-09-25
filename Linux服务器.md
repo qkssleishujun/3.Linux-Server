@@ -19,8 +19,8 @@
 
 &ensp;&ensp;&ensp;&ensp;游戏本或者商务本应该都可以用一个叫"鲁大师"的软件中的"硬件检测"这个功能查到自己电脑的具体硬件信息  
 &ensp;&ensp;&ensp;&ensp;在Windows的cmd中,基本上使用这些命令就可以查看到下面这些硬件的许多信息,但相比于使用软件看到的没那么详细:  
-&ensp;&ensp;&ensp;&ensp;wmic cpu get name&ensp;&ensp;&ensp;&ensp;查看CPU型号.实际上wmic这个命令比较强
-&ensp;&ensp;&ensp;&ensp;taskmgr&ensp;&ensp;&ensp;&ensp;可查看下面的绝大多数硬件使用情况以及型号  
+&ensp;&ensp;&ensp;&ensp;wmic cpu get name&ensp;&ensp;&ensp;&ensp;查看CPU型号.实际上wmic这个命令比较强  
+&ensp;&ensp;&ensp;&ensp;taskmgr&ensp;&ensp;&ensp;&ensp;可查看下面的绝大多数硬件使用情况以及型号    
 &ensp;&ensp;&ensp;&ensp;systeminfo&ensp;&ensp;&ensp;&ensp;功能很强大的一个命令,试试就知道
 
 # __CPU__
@@ -73,7 +73,7 @@ DDR2 667，运行频率为333MHz,带宽为多少？(第一个D是双通道的意
 
 &ensp;&ensp;&ensp;&ensp;GPU： Graphic Processing Unit，图形处理器.
 
-&ensp;&ensp;&ensp;&ensp;这玩意和视觉效果有关,我们在电脑上常说的GTX960,GTX1080,在服务器的主板上都集成了显卡，而且显存容量都比较低，一般为16M或32M,因为基本上所有的常见的服务器都只需要字符界面,当然Windows server例外.   
+&ensp;&ensp;&ensp;&ensp;这玩意和视觉效果有关,我们在电脑上常说的GTX960,GTX1080说的就是显卡。实际上，在服务器的主板上有集成显卡，但显存容量都比较低，一般为16M或32M,因为基本上多数的服务器都是为提供一些数据服务，所以用字符界面来减少内存的消耗而不是像Windows那样的桌面界面。当然Windows也有Windows server这种带桌面的服务器.   
 
 
 # __网卡__  
