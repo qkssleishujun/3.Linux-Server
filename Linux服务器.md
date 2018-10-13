@@ -21,7 +21,7 @@
 &ensp;&ensp;&ensp;&ensp;在Windows的cmd中,基本上使用这些命令就可以查看到下面这些硬件的许多信息,但相比于使用第三方软件看到的没那么详细:  
 &ensp;&ensp;&ensp;&ensp;wmic cpu get name&ensp;&ensp;&ensp;&ensp;查看CPU型号.实际上wmic这个命令比较强  
 &ensp;&ensp;&ensp;&ensp;taskmgr&ensp;&ensp;&ensp;&ensp;可查看下面的绝大多数硬件使用情况以及型号    
-&ensp;&ensp;&ensp;&ensp;systeminfo&ensp;&ensp;&ensp;&ensp;功能很强大的一个命令,试试就知道  
+&ensp;&ensp;&ensp;&ensp;systeminfo&ensp;&ensp;&ensp;&ensp;   
 &ensp;&ensp;&ensp;&ensp;msinfo32&ensp;&ensp;&ensp;&ensp;这个包括本地以及远程计算机的系统信息：可以查看硬件信息，组件信息，还有软件环境信息，以及系统版本  
 
 # __CPU__
